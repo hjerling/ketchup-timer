@@ -1,0 +1,36 @@
+{
+  "name": "pomodoro-cli",
+  "version": "1.0.0",
+  "description": "A pomodoro timer command line tool",
+  "main": "index.js",
+  "bin": {
+    "pomodoro": "lib/cli.js"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "pomodoro",
+    "timer",
+    "command",
+    "line"
+  ],
+  "author": "ken.tucky@aj.ax",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "columnify": "^1.5.4",
+    "commander": "^2.9.0",
+    "lodash": "^4.12.0",
+    "moment": "^2.13.0",
+    "node-notifier": "^4.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-iplayer-es6": "^1.4.2"
+  },
+  "eslintConfig": {
+    "extends": "iplayer-es6"
+  },
+  "private": true
+}
