@@ -4,7 +4,7 @@
   "description": "A pomodoro timer command line tool",
   "main": "index.js",
   "bin": {
-    "pomodoro": "lib/cli.js"
+    "pomodoro": "lib/pomodoro.js"
   },
   "scripts": {
     "lint": "eslint ."
