@@ -1,6 +1,6 @@
-# pomodoro-cli
+# ketchup-timer
 
-> Command line tool for setting pomodoro timers
+> Command line tool for setting timers
 
 ## Features
 
@@ -10,7 +10,7 @@
 ## Installation
 
 ```
-npm install -g hjerling/pomodoro-cli
+npm install -g hjerling/ketchup-timer
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ npm install -g hjerling/pomodoro-cli
 ##### Start a timer
 
 ```
-pomodoro start [number_of_minutes]
+ketchup start [number_of_minutes]
 ```
 If no value is given it defaults to 25 minutes.
 
@@ -26,21 +26,21 @@ If no value is given it defaults to 25 minutes.
 ##### List running timers
 
 ```
-pomodoro list
+ketchup list
 ```
 
 ##### Stop a timer
 
 ```
-pomodoro stop <id>
+ketchup stop <id>
 ```
 
-The `id` refers to the id of the timer. Get this `id` from the list of timers. 
+The `id` refers to the id of the timer. Get this `id` from the list of timers.
 
 ## Contributing
 
-1. [Fork it!](https://github.com/hjerling/pomodoro-cli/fork)
+1. [Fork it!](https://github.com/hjerling/ketchup-timer/fork)
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Create new [Pull Request](https://github.com/hjerling/pomodoro-cli/pulls).
+5. Create new [Pull Request](https://github.com/hjerling/ketchup-timer/pulls).

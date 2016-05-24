@@ -1,17 +1,21 @@
 {
-  "name": "pomodoro-cli",
+  "name": "ketchup-timer",
   "version": "1.0.0",
-  "description": "A pomodoro timer command line tool",
-  "main": "index.js",
+  "description": "A command line tool for setting timers",
   "bin": {
-    "pomodoro": "lib/pomodoro.js"
+    "ketchup": "lib/ketchup.js"
   },
   "scripts": {
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hjerling/ketchup-timer.git"
+  },
   "keywords": [
     "pomodoro",
     "timer",
+    "ketchup",
     "command",
     "line"
   ],
