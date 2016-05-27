@@ -1,6 +1,6 @@
 {
   "name": "ketchup-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command line tool for setting timers",
   "bin": {
     "ketchup": "lib/ketchup.js"
@@ -35,6 +35,5 @@
   },
   "eslintConfig": {
     "extends": "iplayer-es6"
-  },
-  "private": true
+  }
 }

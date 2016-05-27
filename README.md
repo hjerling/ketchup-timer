@@ -2,15 +2,12 @@
 
 > Command line tool for setting timers
 
-## Features
-
-* Get a notification when the timer is done
-* Set multiple timers
+Ketchup timer is a command line tool that lets you set a timer and puts it in the background to let you keep working in the terminal window. When the time is up it will pop-up a notification to let you know that your time is up.
 
 ## Installation
 
 ```
-npm install -g hjerling/ketchup-timer
+npm install -g ketchup-timer
 ```
 
 ## Usage
@@ -44,3 +41,9 @@ The `id` refers to the id of the timer. Get this `id` from the list of timers.
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Create new [Pull Request](https://github.com/hjerling/ketchup-timer/pulls).
+
+## Why ketchup timer?
+
+* Ketchup consists mainly of ~~sugar~~ tomatoes.
+* [Tomato in Spanish](https://translate.google.co.uk/#en/it/tomato) is pomodoro.
+* Pomodoro is also a [time management method](https://en.wikipedia.org/wiki/Pomodoro_Technique).
