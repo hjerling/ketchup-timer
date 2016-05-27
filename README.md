@@ -45,5 +45,5 @@ The `id` refers to the id of the timer. Get this `id` from the list of timers.
 ## Why ketchup timer?
 
 * Ketchup consists mainly of ~~sugar~~ tomatoes.
-* [Tomato in Spanish](https://translate.google.co.uk/#en/it/tomato) is pomodoro.
+* [Tomato in Italian](https://translate.google.co.uk/#en/it/tomato) is pomodoro.
 * Pomodoro is also a [time management method](https://en.wikipedia.org/wiki/Pomodoro_Technique).
