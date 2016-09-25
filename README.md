@@ -20,8 +20,7 @@ ketchup start [options] [number_of_minutes]
 If no value is given it defaults to 25 minutes.
 
 ###### Options:
--n, --name <name> - Give the timer a name
-
+* `-n, --name <name>` - Give the timer a name
 
 ##### List running timers
 
@@ -38,8 +37,8 @@ ketchup stop [options] [id]
 The `id` refers to the id of the timer. Get this `id` from the list of timers.
 
 ###### Options:
--n, --name <name> - Stop the timer with a given name
--a, --all - Stop all running timers
+* `-n, --name <name>` - Stop the timer with a given name
+* `-a, --all` - Stop all running timers
 
 ## Contributing
 
